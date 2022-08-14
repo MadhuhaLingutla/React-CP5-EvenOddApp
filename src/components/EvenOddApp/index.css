@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+}
+.description {
+  color: #334155;
+  font-size: 20px;
+}
+.initialbutton {
+  color: #334155;
+  font-size: 13px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.incrementedbutton {
+  color: #334155;
+  font-size: 13px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.instruction {
+  color: #1e293b;
+  font-size: 10px;
+}
